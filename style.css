@@ -1,0 +1,112 @@
+*,
+::before,
+:after {
+    box-sizing: border-box;
+}
+
+.container {
+    max-width: 1200px;
+    padding: 5px;
+    margin: 0 auto;    
+}
+.signin__wrapper{    
+    width: 500px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    position: relative;
+}
+.signin__title{
+    font-size: 36px;
+    margin-bottom: 20px;
+}
+.signin__email,
+.signin__password,
+.signin__btn,
+.signup__first,
+.signup__second,
+.signup__email,
+.signup__password,
+.signup__btn {
+    padding: 15px;
+    margin-bottom: 40px;
+    font-size: 22px;
+}
+.signin__btn {
+    color: #fff;
+    background-color: darkgreen;
+    cursor: pointer;    
+}
+.signup__link,
+.signin__link{
+    color: blue;
+    text-align: left;
+    font-size: 16px;
+    cursor: pointer;
+}
+.signup__wrapper{
+    display: none;
+    flex-direction: column;
+    width: 500px;
+    text-align: center;
+    margin: 0 auto;    
+}
+.signup__btn {
+    color: #fff;
+    background-color: darkblue;
+    cursor: pointer;    
+}
+.notification{
+    color: #fff;;
+    background-color: darkred;
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+    font-size: 14px;
+    position: relative;
+    top: -30px;
+    left: 0;
+    z-index: 5;
+}
+.profile{
+    width: 500px;
+    margin: 0 auto;
+    /* display: flex; */
+    display: none;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;   
+    background: lightcyan;
+    border-radius: 10px;
+}
+.profile__img{
+    width: 100px;
+    margin: 20px 0;
+}
+.profile__name {
+    font-size: 36px;
+    margin-bottom: 30px;
+}
+.profile__email,
+.profile__occupation {
+    font-size: 30px;
+    color: darkgray;
+    margin-bottom: 20px;
+}
+.profile__line {
+    width: 100px;
+    height: 2px;
+    color: darkgray;
+    background-color: darkgray;
+    margin-bottom: 100px;
+}
+.profile__btn {
+    padding: 15px;    
+    font-size: 22px;
+    color: #fff;
+    background-color: darkgreen;
+    cursor: pointer;    
+    width: 100%;
+}
